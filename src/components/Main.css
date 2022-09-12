@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.main ul {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    text-align: center;
+    list-style: none;
+}
+
+.main li {
+    width: 300px;
+    height: auto;
+    font-size: .9rem;
+    margin: 2rem 2rem;
+    background-color: rgba(78, 212, 245, 0.05);
+    border-radius: 3px;
+}
+
+.main h1 {
+    color: black;
+    margin: 1rem 1rem 4rem 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.7rem;
+}
+
+.main h2 {
+    font-size: 2rem;
+    color: rgb(4, 55, 113);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main h3 {
+    font-size: 1.7rem;
+    margin: .4rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+.main h4 {
+    margin: .2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.main img {
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+}
+
+button.search {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    background-color: rgb(57, 186, 237);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+ }
+
+ button.search:hover {
+    background-color: rgb(49, 152, 193);
+ } 
+
+ .pages button {
+    margin: 30px 1px;
+    padding: 6px;
+    background-color: rgba(50, 154, 196, 0.689);
+    border: 3px solid transparent;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: bold;
+ }
+
+ .pages button:hover {
+    background-color: rgba(32, 102, 130, 0.651);
+ }
+
+ button.activePage {
+    margin: 0;
+    padding: 7px;
+    border: 3px solid rgba(17, 52, 67, 0.486);
+ }
+
+ .choice {
+    margin: .7rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Amatic SC', cursive;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(78, 212, 245, 0.05);
+ }
+
+ label.question {
+    margin-left: 2.5rem;
+    color: rgb(42, 114, 181);
+    font-size: 1.8rem;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 2px;
+ }
+ 
+ .filtr {
+    display: flex;
+    margin: 0 0.5rem;
+ }
+
+ .filtr label {
+    margin: 1rem;
+ }
+
+ .filtr select {
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+ }
+ .filtr select:active {
+    border: 1px solid #aaaaaa;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+ }
+
+ @media only screen and (max-width: 768px) {
+    .main ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 3.5rem;
+    }
+    .main h1 {
+        font-size: 2rem;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 992px) {
+    .main ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .main h1 {
+        font-size: 2.5rem;
+    }
+  }
