@@ -1,5 +1,5 @@
 import React, { useState,  useRef } from 'react';
-import './Main.css';
+import '../styles/Main.css';
 
 const Main = () => {
     const [users, setUsers] = useState([]);
