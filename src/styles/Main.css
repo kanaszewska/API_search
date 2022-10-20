@@ -17,17 +17,20 @@
     height: auto;
     font-size: .9rem;
     margin: 2rem 15%;
-    background-color: rgba(31, 103, 123, 0.08);
-    box-shadow: 1px 2px 3px 1px rgb(31, 63, 123, 0.4);
+    background-color: rgb(176, 196, 222, 0.1);
+    box-shadow: 1px 2px 3px 1px rgb(31, 63, 123, 0.6);
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .main li:hover {
-   box-shadow: 3px 4px 5px 3px rgb(31, 63, 123, 0.5);
+   box-shadow: 3px 4px 5px 3px rgb(31, 63, 123, 0.7);
+   background-color: rgb(176, 196, 222, 0.3);
+   scale: 100.5%;
 }
 
 .main h1 {
-   margin:  1rem;
+   margin:  1rem 0;
    width: 100%;
     color: rgb(31, 63, 123);
     text-transform: uppercase;
@@ -59,9 +62,9 @@
 }
 
 button.search {
-    margin: 0.5rem;
+    margin-left: 0.5rem;
     padding: 0.6rem;
-    background-color: rgb(57, 186, 237);
+    background-color: rgb(4, 55, 113, 0.7);
     border: 2px solid transparent;
     border-radius: 10px;
     color: white;
@@ -70,7 +73,8 @@ button.search {
  }
 
  button.search:hover {
-    background-color: rgb(49, 152, 193);
+   background-color: rgb(4, 55, 113);
+   scale: 110%;
  } 
 
  .pages button {
@@ -96,9 +100,9 @@ button.search {
  }
 
  .choice {
-    margin: .7rem;
+    margin: .7rem 0.7rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
     cursor: pointer;
     font-family: 'Amatic SC', cursive;

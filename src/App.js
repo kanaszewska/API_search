@@ -1,14 +1,17 @@
 import React from 'react';
 import Main from './components/Main';
-import logo from './styles/images/logo.jpg';
+import { FaFacebookSquare, FaTwitterSquare } from 'react-icons/fa';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className='app'>
       <div className='header'>
-      <img src={logo} alt='/'/>
-      <h1>Turist</h1>
+        <h1>Turist</h1>
+        <div className='icons'>
+          <span><FaFacebookSquare/></span>
+          <span><FaTwitterSquare/></span>
+        </div>
       </div>
       <div className='section'>
         <Main/>

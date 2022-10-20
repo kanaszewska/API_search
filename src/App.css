@@ -5,34 +5,48 @@
   padding: 0;
 }
 
-.header {
-  height: 10rem;
-  position: fixed;
+.app {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.header img {
-  height: 10rem;
-  width: 100%;
-  z-index: -1;
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  height: 4.5rem;
+  width: 100vw;
+  background-color: rgb(32, 59, 80);
+}
+
+.header .icons {
+  padding: 1.1rem 2.5rem;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.icons span {
+  padding: 0 1rem;
+  cursor: pointer;
 }
 
 .header h1 {
-  margin: -5.6rem 2rem;
+  margin: -.4rem 3%;
   text-transform: uppercase;
   letter-spacing: 25px;
   font-family: 'Playfair Display', serif;
   font-size: 4rem;
   color: white;
-  background-color: transparent;
 }
 
 .section {
   padding: 0;
   margin: 0;
-  padding-top: 10rem;
-  display: table;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   width: 100vw;
   text-align: center;
   background-color: white;
