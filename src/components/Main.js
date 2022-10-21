@@ -109,8 +109,8 @@ const Main = () => {
                           <option value="US"> Stany Zjednoczone </option>
                 </select>
             </label>
-            <button className='search' onClick={handleSearch}>Szukaj</button>
                 </div>
+                <button className='search' onClick={handleSearch}>Szukaj</button>
                 <div className='filtr'>
                   <label className='filtr'>
                     Filtruj:
