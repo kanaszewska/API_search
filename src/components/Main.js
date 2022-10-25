@@ -75,10 +75,10 @@ const Main = () => {
   
     return (
       <div className='main'>
-        <h1>Wyszukaj rezydenta naszego biura turystycznego</h1>
+        <h1>Search for a resident of our tourist office</h1>
         <div className='select'>
             <label className='question'>
-                Gdzie na wakacje? 
+            Where to go on vacation? 
                 <select
                       className='choice'
                       value={searchQuery} 
@@ -87,41 +87,41 @@ const Main = () => {
                       >
                           <option value="-"> - </option>
                           <option value="AU"> Australia </option>
-                          <option value="BR"> Brazylia </option>
-                          <option value="CA"> Kanada </option>
-                          <option value="CH"> Szwajcaria </option>
-                          <option value="DE"> Niemcy </option>
-                          <option value="DK"> Dania </option>
-                          <option value="ES"> Hiszpania </option>
-                          <option value="FI"> Finlandia </option>
-                          <option value="FR"> Francja </option>
-                          <option value="GB"> Wielka Brytania </option>
-                          <option value="IE"> Irlandia </option>
-                          <option value="IN"> Indie </option>
+                          <option value="BR"> Brazil </option>
+                          <option value="CA"> Canada </option>
+                          <option value="CH"> Switzerland </option>
+                          <option value="DE"> Germany </option>
+                          <option value="DK"> Denmark </option>
+                          <option value="ES"> Spain </option>
+                          <option value="FI"> Finland </option>
+                          <option value="FR"> France </option>
+                          <option value="GB"> Great Britain </option>
+                          <option value="IE"> Ireland </option>
+                          <option value="IN"> India </option>
                           <option value="IR"> Iran </option>
-                          <option value="MX"> Meksyk </option>
-                          <option value="NL"> Niderlandy </option>
-                          <option value="NO"> Norwegia </option>
-                          <option value="NZ"> Nowa Zelandia </option>
+                          <option value="MX"> Mexico </option>
+                          <option value="NL"> Netherlands </option>
+                          <option value="NO"> Norway </option>
+                          <option value="NZ"> New Zealand </option>
                           <option value="RS"> Serbia </option>
-                          <option value="TR"> Turcja </option>
-                          <option value="UA"> Ukraina </option>
-                          <option value="US"> Stany Zjednoczone </option>
+                          <option value="TR"> Turkey </option>
+                          <option value="UA"> Ukraine </option>
+                          <option value="US"> United States </option>
                 </select>
             </label>
                 </div>
-                <button className='search' onClick={handleSearch}>Szukaj</button>
+                <button className='search' onClick={handleSearch}>Search</button>
                 <div className='filtr'>
                   <label className='filtr'>
-                    Filtruj:
+                    Filter:
                     <select
                         className='filtr'
                         value={result} 
                         onChange={handleResults}
                         >
-                            <option value="5"> 5 elementów na stronie </option>
-                            <option value="10"> 10 elementów na stronie </option>
-                            <option value="20"> 20 elemenów na stronie </option>
+                            <option value="5"> 5 elements per page </option>
+                            <option value="10"> 10 elements per page </option>
+                            <option value="20"> 20 elements per page </option>
                     </select>
                   </label>
                 </div>
@@ -133,17 +133,17 @@ const Main = () => {
                 <h2>{user.name.first} {user.name.last}</h2>
                 <h3>{user.location.country}</h3>
                 <img src={user.picture.large} alt='/'/>
-                <h4>tel: {user.phone}</h4>
-                <h4>email: {user.email}</h4>
+                <h4>{user.phone}</h4>
+                <h4>{user.email}</h4>
                 </li> )
               } 
           </ul>
         {
           (check === true) ?
           (<div className='pages'>
-          <button disabled={disabledPrev} onClick={handlePrevPage}>Wstecz</button>
+          <button disabled={disabledPrev} onClick={handlePrevPage}>Back</button>
           {pages}  
-          <button disabled={disabledNext} onClick={handleNextPage}>Następna</button>
+          <button disabled={disabledNext} onClick={handleNextPage}>Next</button>
           </div>) : null}
       </div>
     );

@@ -17,7 +17,7 @@ function App() {
         <Main/>
       </div>
       <div className='footer'>
-        © 2022 Turist, Wszystkie prawa zastrzeżone
+        © 2022 Turist, All rights reserved
       </div>
     </div>
   );
