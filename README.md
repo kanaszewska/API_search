@@ -3,11 +3,11 @@ https://kanaszewska.github.io/API_search/
 
 
 # Technologies Used
-HTML5
+* CSS
+* HTML5
+* JavaScript
+* React
 
-CSS3
-
-JavaScript
 
 
 
