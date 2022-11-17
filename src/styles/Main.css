@@ -126,14 +126,22 @@ button.search {
 
  .filtr label {
     padding-left: 1rem;
+    margin-top: 1rem;
  }
 
  .filtr select {
-    border: 1px solid #aaaaaa;
     border-radius: 3px;
-    cursor: pointer;
-    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
     box-sizing: border-box;
+    outline:0;
+    box-shadow:none;
+    border: 1px solid blue;
+    background: rgb(173, 216, 230, 0.4);
+    flex: 1;
+    padding: 0 .5em;
+    color:black;
+    cursor:pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
  }
 
  .filtr select:active {
