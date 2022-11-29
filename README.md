@@ -13,4 +13,5 @@ https://kanaszewska.github.io/API_search/
 
 # Screenshots
 
-![project3](https://user-images.githubusercontent.com/106904594/201998345-c2182bed-a6f7-4bae-ae9c-bf82aa9f11fb.jpg)
+
+![project3](https://user-images.githubusercontent.com/106904594/204536472-1f425855-040f-48b4-af3d-3fc645278b75.jpg)
