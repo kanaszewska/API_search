@@ -119,7 +119,6 @@ const Main = () => {
       </button>
       <div className="filtr">
         <label className="filtr">
-          Filter:
           <select className="filtr" value={result} onChange={handleResults}>
             <option value="5"> 5 elements per page </option>
             <option value="10"> 10 elements per page </option>

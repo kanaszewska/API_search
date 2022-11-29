@@ -1,50 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
-
 .app {
-  width: 100%;
   margin: 0;
   padding: 0;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  height: 4.5rem;
+.navigation {
   width: 100%;
-  background-color: rgb(32, 59, 80);
-}
-
-.header .icons {
-  padding: 1.1rem 2.5rem;
-  font-size: 2rem;
-  color: white;
-  cursor: pointer;
-}
-
-.icons span {
-  padding: 0 1rem;
-  cursor: pointer;
-}
-
-.header h1 {
-  margin: -.4rem 3%;
-  text-transform: uppercase;
-  letter-spacing: 25px;
-  font-family: 'Playfair Display', serif;
-  font-size: 4rem;
-  color: white;
+  /* height: 5rem; */
 }
 
 .section {
   padding: 0;
-  margin: 0;
+  margin-top: -3rem;
   min-height: 100vh;
   height: auto;
   text-align: center;
-  background-color: white;
+  background-image: url('./styles/images/bcg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .footer {
@@ -54,11 +28,4 @@
   text-align: center;
   padding: .5rem;
   width: auto;
-}
-
-@media (max-width: 635px) {
-  .header .icons {
-    font-size: 1.5rem;
-    padding: .5rem;
-  }
 }

@@ -4,54 +4,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+.main{
+   min-height: 100vh;
+   height: auto;
+   background-color: rgb(255, 255, 255, 0.4);
+}
+
 .main ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    text-align: center;
-    list-style: none;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 1rem;
+   text-align: center;
+   list-style: none;
+   display: grid;
 }
 
 .main li {
    padding: .7rem;
-    height: auto;
-    font-size: .9rem;
-    margin: 2rem 15%;
-    background-color: rgb(176, 196, 222, 0.1);
-    box-shadow: 1px 2px 3px 1px rgb(31, 63, 123, 0.6);
-    border-radius: 3px;
-    cursor: pointer;
+   height: auto;
+   font-size: .9rem;
+   margin: 1rem 15%;
+   box-shadow: 3px 4px 5px 3px rgba(74, 91, 123, 0.7);
+   background-color: rgba(231, 236, 244, 0.8);
+   border-radius: 3px;
+   cursor: pointer;
 }
 
 .main li:hover {
-   box-shadow: 3px 4px 5px 3px rgb(31, 63, 123, 0.7);
-   background-color: rgb(176, 196, 222, 0.3);
-   scale: 100.5%;
+   scale: 105%;
 }
 
 .main h1 {
-   margin:  1rem 0;
+   padding-top: 1rem;
    width: 100%;
-    color: rgb(31, 63, 123);
-    text-transform: uppercase;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
+   color: black;
+   text-transform: uppercase;
+   font-size: 2rem;
+   font-family: 'Montserrat', sans-serif;
 }
 
 .main h2 {
-    font-size: 2rem;
-    color: rgb(4, 55, 113);
-    font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   padding: 0;
+   font-size: 2rem;
+   color: rgb(4, 55, 113);
+   font-family: 'Montserrat', sans-serif;
 }
 
 .main h3 {
-    font-size: 1.7rem;
-    margin: .4rem;
-    font-family: 'Amatic SC', cursive;
+   font-size: 1.7rem;
+   margin: .4rem;
+   font-family: 'Amatic SC', cursive;
 }
 
 .main h4 {
-    margin: .2rem;
     font-family: 'Playfair Display', serif;
 }
 
@@ -59,12 +64,13 @@
     width: 200px;
     height: auto;
     border-radius: 100px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.3);
 }
 
 button.search {
     margin-left: 0.5rem;
     padding: 0.6rem;
-    background-color: rgb(4, 55, 113, 0.7);
+    background-color: rgb(154, 63, 154);
     border: 2px solid transparent;
     border-radius: 10px;
     color: white;
@@ -73,30 +79,29 @@ button.search {
  }
 
  button.search:hover {
-   background-color: rgb(4, 55, 113);
    scale: 110%;
  } 
 
  .pages button {
-    margin: 30px 1px;
-    padding: 6px;
-    background-color: rgba(50, 154, 196, 0.689);
-    border: 3px solid transparent;
-    border-radius: 6px;
-    color: white;
-    cursor: pointer;
-    font-size: .8rem;
-    font-weight: bold;
+   margin: 30px 3px;
+   height: auto;
+   padding: 8px;
+   background-color: black;
+   border: .5px solid white;
+   border-radius: 4px;
+   color: white;
+   cursor: pointer;
+   font-size: .8rem;
+   font-weight: bold;
  }
 
  .pages button:hover {
-    background-color: rgba(32, 102, 130, 0.651);
+    scale: 110%;
  }
 
  button.activePage {
-    margin: 0;
-    padding: 7px;
-    border: 3px solid rgba(17, 52, 67, 0.486);
+    border: 3px solid rgb(70, 127, 193);
+    scale: 115%;
  }
 
  .choice {
@@ -125,7 +130,7 @@ button.search {
  }
 
  .filtr label {
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     margin-top: 1rem;
  }
 
@@ -134,8 +139,8 @@ button.search {
     box-sizing: border-box;
     outline:0;
     box-shadow:none;
-    border: 1px solid blue;
-    background: rgb(173, 216, 230, 0.4);
+    border: 1px solid darkcyan;
+    background: white;
     flex: 1;
     padding: 0 .5em;
     color:black;

@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(19, 31, 63);
+}
+
+.header .icons {
+    padding: .5rem 2.5rem;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .icons span {
+    padding: 0 1rem;
+    cursor: pointer;
+  }
+  
+  .header h1 {
+    padding-left: 2rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  @media (max-width: 635px) {
+    .header .icons {
+      font-size: 1.5rem;
+      padding: .8rem .5rem;
+    }
+  }
