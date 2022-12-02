@@ -11,6 +11,8 @@ https://kanaszewska.github.io/API_search/
 # Features
 * Responsive design
 * Animated texts, buttons and icons
+* Search for residents from the selected country
+* Use pagination
 * I used fonts from Google Fonts
 * I used icons from React Icons
 
