@@ -8,7 +8,11 @@ https://kanaszewska.github.io/API_search/
 * JavaScript
 * React
 
-
+# Features
+* Responsive design
+* Animated texts, buttons and icons
+* I used fonts from Google Fonts
+* I used icons from React Icons
 
 
 # Screenshots
