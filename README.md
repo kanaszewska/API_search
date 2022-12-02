@@ -10,11 +10,11 @@ https://kanaszewska.github.io/API_search/
 
 # Features
 * Responsive design
-* Animated texts, buttons and icons
+* Animated buttons and resident business cards
 * Search for residents from the selected country
-* Use pagination
+* Select the number of elements on the page
+* Use pagination to go to the next search page
 * I used fonts from Google Fonts
-* I used icons from React Icons
 
 
 # Screenshots
